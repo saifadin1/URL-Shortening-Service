@@ -37,5 +37,15 @@ namespace URLShorteningService.Sevices
                 context.SaveChanges();
             }
         }
+
+        public void DeleteUrl(string ShortCode)
+        {
+            var url = context.Urls.FirstOrDefault(u => u.ShortUrl == ShortCode);
+            if (url != null)
+            {
+                context.Urls.Remove(url);
+                context.SaveChanges();
+            }
+        }
     }
 }

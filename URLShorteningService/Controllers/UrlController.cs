@@ -55,5 +55,20 @@ namespace URLShorteningService.Controllers
             return BadRequest();
         }
 
+        [HttpDelete("{ShortCode}")]
+        [ProducesResponseType(StatusCodes.Status204NoContent)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public IActionResult Delete(string ShortCode)
+        {
+            var url = _urlRepo.GetUrl(ShortCode);
+            if (url != null)
+            {
+                _urlRepo.DeleteUrl(ShortCode);
+                return NoContent();
+            }
+            return NotFound();
+
+        }
+
     }
 }

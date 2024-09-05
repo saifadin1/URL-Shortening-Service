@@ -7,5 +7,6 @@ namespace URLShorteningService.Sevices
         public Url GetUrl(string shortUrl);
         void UpdateUrl(string shortCode , UrlDTO url);
         public bool UrlExists(string LongUrl);
+        public void DeleteUrl(string LongUrl);
     }
 }
