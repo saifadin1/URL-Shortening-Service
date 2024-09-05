@@ -4,18 +4,18 @@ namespace URLShorteningService.Helpers
 {
     public static class CodeGenerator
     {
-        static StringBuilder characters;
+        public static StringBuilder characters;
         static CodeGenerator()
         {
             characters = new StringBuilder();
             for(int i=0; i<26; i++)
             {
-                characters.Append('a' + i);
-                characters.Append('A' + i);
+                characters.Append((char)('a' + i)); 
+                characters.Append((char)('A' + i));
             }
             for(int i=0; i<10; i++)
             {
-                characters.Append('0' + i);
+                characters.Append((char)('0' + i));
             }
         }
         public static StringBuilder Generate()

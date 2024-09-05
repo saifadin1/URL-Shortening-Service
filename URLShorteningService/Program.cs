@@ -1,4 +1,3 @@
-using URLShorteningService.Data;
 
 var builder = WebApplication.CreateBuilder(args);
 
