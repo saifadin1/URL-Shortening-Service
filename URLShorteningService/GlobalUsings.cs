@@ -7,5 +7,7 @@ global using URLShorteningService.Data;
 global using URLShorteningService.Helpers;
 global using System.Diagnostics;
 global using URLShorteningService.Data;
+global using URLShorteningService.DTO;
+
 
 

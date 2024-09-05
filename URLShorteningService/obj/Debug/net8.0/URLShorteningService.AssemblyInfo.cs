@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("URLShorteningService")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1ebb33ff463c434bc6b76b3c7bd3228825561e7a")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0fa87b1fa9c8fab8d0b6dc5735a4acf0155e92b2")]
 [assembly: System.Reflection.AssemblyProductAttribute("URLShorteningService")]
 [assembly: System.Reflection.AssemblyTitleAttribute("URLShorteningService")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

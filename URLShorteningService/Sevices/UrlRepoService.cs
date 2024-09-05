@@ -1,4 +1,5 @@
 ﻿
+
 namespace URLShorteningService.Sevices
 {
     public class UrlRepoService : IUrlRepo
@@ -26,6 +27,15 @@ namespace URLShorteningService.Sevices
                 return true;
             }
             return false;
+        }
+        public void UpdateUrl(string shortCode , UrlDTO url)
+        {
+            var _url = context.Urls.FirstOrDefault(u => u.ShortUrl == shortCode);
+            if(_url != null)
+            {
+                _url.url = url.url;
+                context.SaveChanges();
+            }
         }
     }
 }

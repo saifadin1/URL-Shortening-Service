@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{33C67D61-C68B-4A79-BD6F-4C4AF808F85C}|URLShorteningService\\URLShorteningService.csproj|solutionrelative:urlshorteningservice\\controllers\\urlcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{33C67D61-C68B-4A79-BD6F-4C4AF808F85C}|URLShorteningService\\URLShorteningService.csproj|d:\\c#_projects\\urlshorteningservice\\urlshorteningservice\\sevices\\urlreposervice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33C67D61-C68B-4A79-BD6F-4C4AF808F85C}|URLShorteningService\\URLShorteningService.csproj|solutionrelative:urlshorteningservice\\sevices\\urlreposervice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{33C67D61-C68B-4A79-BD6F-4C4AF808F85C}|URLShorteningService\\URLShorteningService.csproj|d:\\c#_projects\\urlshorteningservice\\urlshorteningservice\\sevices\\iurlrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{33C67D61-C68B-4A79-BD6F-4C4AF808F85C}|URLShorteningService\\URLShorteningService.csproj|solutionrelative:urlshorteningservice\\sevices\\iurlrepo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{33C67D61-C68B-4A79-BD6F-4C4AF808F85C}|URLShorteningService\\URLShorteningService.csproj|d:\\c#_projects\\urlshorteningservice\\urlshorteningservice\\helpers\\codegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33C67D61-C68B-4A79-BD6F-4C4AF808F85C}|URLShorteningService\\URLShorteningService.csproj|solutionrelative:urlshorteningservice\\helpers\\codegenerator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -17,10 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{33C67D61-C68B-4A79-BD6F-4C4AF808F85C}|URLShorteningService\\URLShorteningService.csproj|d:\\c#_projects\\urlshorteningservice\\urlshorteningservice\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{33C67D61-C68B-4A79-BD6F-4C4AF808F85C}|URLShorteningService\\URLShorteningService.csproj|solutionrelative:urlshorteningservice\\globalusings.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{33C67D61-C68B-4A79-BD6F-4C4AF808F85C}|URLShorteningService\\URLShorteningService.csproj|d:\\c#_projects\\urlshorteningservice\\urlshorteningservice\\sevices\\urlreposervice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{33C67D61-C68B-4A79-BD6F-4C4AF808F85C}|URLShorteningService\\URLShorteningService.csproj|solutionrelative:urlshorteningservice\\sevices\\urlreposervice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,37 +34,50 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 5,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
+              "Title": "IUrlRepo.cs",
+              "DocumentMoniker": "D:\\C#_Projects\\URLShorteningService\\URLShorteningService\\Sevices\\IUrlRepo.cs",
+              "RelativeDocumentMoniker": "URLShorteningService\\Sevices\\IUrlRepo.cs",
+              "ToolTip": "D:\\C#_Projects\\URLShorteningService\\URLShorteningService\\Sevices\\IUrlRepo.cs",
+              "RelativeToolTip": "URLShorteningService\\Sevices\\IUrlRepo.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-05T23:19:05.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "UrlRepoService.cs",
               "DocumentMoniker": "D:\\C#_Projects\\URLShorteningService\\URLShorteningService\\Sevices\\UrlRepoService.cs",
               "RelativeDocumentMoniker": "URLShorteningService\\Sevices\\UrlRepoService.cs",
               "ToolTip": "D:\\C#_Projects\\URLShorteningService\\URLShorteningService\\Sevices\\UrlRepoService.cs",
               "RelativeToolTip": "URLShorteningService\\Sevices\\UrlRepoService.cs",
-              "ViewState": "AQIAAAUAAAAAAAAAAAAAwBAAAAAJAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAuwAQAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-05T22:54:05.763Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "GlobalUsings.cs",
               "DocumentMoniker": "D:\\C#_Projects\\URLShorteningService\\URLShorteningService\\GlobalUsings.cs",
               "RelativeDocumentMoniker": "URLShorteningService\\GlobalUsings.cs",
               "ToolTip": "D:\\C#_Projects\\URLShorteningService\\URLShorteningService\\GlobalUsings.cs",
               "RelativeToolTip": "URLShorteningService\\GlobalUsings.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAATAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-05T22:38:32.638Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\C#_Projects\\URLShorteningService\\URLShorteningService\\Program.cs",
               "RelativeDocumentMoniker": "URLShorteningService\\Program.cs",
@@ -73,7 +90,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "CodeGenerator.cs",
               "DocumentMoniker": "D:\\C#_Projects\\URLShorteningService\\URLShorteningService\\Helpers\\CodeGenerator.cs",
               "RelativeDocumentMoniker": "URLShorteningService\\Helpers\\CodeGenerator.cs",
@@ -92,7 +109,7 @@
               "RelativeDocumentMoniker": "URLShorteningService\\Controllers\\UrlController.cs",
               "ToolTip": "D:\\C#_Projects\\URLShorteningService\\URLShorteningService\\Controllers\\UrlController.cs",
               "RelativeToolTip": "URLShorteningService\\Controllers\\UrlController.cs",
-              "ViewState": "AQIAAAoAAAAAAAAAAAAzwBkAAAAoAAAA",
+              "ViewState": "AQIAACIAAAAAAAAAAAD4vzMAAAAwAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-05T17:21:40.675Z",
               "EditorCaption": ""
