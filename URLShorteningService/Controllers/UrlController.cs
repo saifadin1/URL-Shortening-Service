@@ -23,9 +23,24 @@ namespace URLShorteningService.Controllers
             {
                 var _url = new Url { url = url.url, ShortUrl = CodeGenerator.Generate().ToString() };
                 _urlRepo.AddUrl(_url);
-                return Ok(_url);
+                return Created("" , _url);
             }
             return BadRequest();
         }
+
+        [HttpGet("{shortUrl}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public IActionResult Get(string shortUrl)
+        {
+            var url = _urlRepo.GetUrl(shortUrl);
+            if(url != null)
+            {
+                return Ok(url);
+            }
+            return NotFound();
+        }
+
+
     }
 }
