@@ -17,6 +17,8 @@ namespace URLShorteningService.Sevices
         public Url GetUrl(string shortUrl)
         {
             var url = context.Urls.FirstOrDefault(u => u.ShortUrl == shortUrl);
+            url.accessCount++;
+            context.SaveChanges();
             return url;
         }   
         public bool UrlExists(string LongUrl)

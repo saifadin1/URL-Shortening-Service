@@ -36,7 +36,14 @@ namespace URLShorteningService.Controllers
             var url = _urlRepo.GetUrl(shortUrl);
             if (url != null)
             {
-                return Ok(url);
+                ModifiedUrl _url = new ModifiedUrl()
+                {
+                    createdAt = url.createdAt,
+                    updatedAt = url.updatedAt,
+                    shortCode = url.ShortUrl,
+                    Url = url.url
+                };
+                return Ok(_url);
             }
             return NotFound();
         }
@@ -67,7 +74,19 @@ namespace URLShorteningService.Controllers
                 return NoContent();
             }
             return NotFound();
+        }
 
+        [HttpGet("stats/{ShortCode}")]
+        [ProducesResponseType(StatusCodes.Status200OK)]
+        [ProducesResponseType(StatusCodes.Status404NotFound)]
+        public IActionResult GetStats(string ShortCode)
+        {
+            var url = _urlRepo.GetUrl(ShortCode);
+            if (url != null)
+            {
+                return Ok(url);
+            }
+            return NotFound();
         }
 
     }
